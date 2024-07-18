@@ -20,7 +20,6 @@ export function CatFacts() {
   };
 
   const fetchData = () => {
-    setCatFact(null);
     setFactLoading(true);
     setGifLoading(true);
 
