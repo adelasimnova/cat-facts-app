@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./CatFacts.css";
-import { getCatFact, getCatGif } from "../../../services/api";
-import LoadingScreen from "../../LoadingScreen/LoadingScreen";
+import { getCatFact, getCatGif } from "../../services/api";
+import LoadingScreen from "../LoadingScreen/LoadingScreen";
 
 export function CatFacts() {
   const [catFact, setCatFact] = React.useState<string | null>(null);
